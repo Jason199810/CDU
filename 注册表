@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>新用户注册</title>
+    <meta charset="utf-8">
+    <style>
+        li{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+<center>
+<form action="#" method="post" name="myForm">
+    <fieldset>
+        <legend>注册用户</legend>
+        <center>
+            <ul>
+                <li> 用 户 名:<input name="username" type="text"  maxlength="20"></li>
+                <li> 密&nbsp;&nbsp;&nbsp;&nbsp;码:<input type="password" name="pwd1" size="20" maxlength="20"></li>
+                <li> 确认密码:<input type="password" name="pwd2" size="20" maxlength="20"></li>
+                <li>
+                      性&nbsp;&nbsp;&nbsp;&nbsp;别:<input type="radio" name="sex" class="noborder" value="男" checked>男&nbsp;
+                    <input type="radio" name="sex" class="noborder" value="女" >女
+                </li>
+                <li>
+                    爱好:<input type="checkbox" name="hobby" value="体育">体育
+                    <input type="checkbox" name="hobby" value="旅游">旅游
+                    <input type="checkbox" name="hobby" value="听音乐">听音乐
+                    <input type="checkbox" name="hobby" value="看书">看书
+                </li>
+                <li>E-mail:<input type="text" name="email" size="50"></li>
+                <li>
+                    <input type="submit" class="btn" value="确定并保存">
+                    <input type="reset" class="btn" value="重新填写">
+                    <input type="image" class="btn" value="☞登陆" src="images/btn_jpg">
+                </li>
+            </ul>
+        </center>
+    </fieldset>
+</form>
+</center>
+</body>
+</html>
